@@ -7,4 +7,4 @@
 - [Lecture 3](https://newpavlov.github.io/rust-isp-2019/03)
 - [Lecture 4](https://newpavlov.github.io/rust-isp-2019/04)
     
-- [And exercises](http://www.rust-tutorials.com/exercises/)
+- [Exercises](http://www.rust-tutorials.com/exercises/)
