@@ -1,3 +1,4 @@
+.gitignore
 .ipynb_checkpoints/
 compiled/.ipynb_checkpoints/
 exercises/.ipynb_checkpoints/
