@@ -138,7 +138,7 @@ fn print_TSV(results : Vec<&City>) {
     
     for city in results {
         
-        println!("\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t", city.country, city.city, 
+        println!("\t{}\t{}\t{}\t{}\t{}\t{}\t{}\n", city.country, city.city, 
             city.accent_city, city.region, city.population, city.latitude,
             city.longitude)
         
@@ -150,7 +150,7 @@ fn print_TSV_to_file(results : Vec<&City>, file_name : String) {
     let write_file = File::create(file_name).unwrap();
     let mut writer = BufWriter::new(&write_file);
 
-    write!(&mut writer, "country\tcity\taccent_city\tregion\tpopulation\tlatitude\tlongitude");
+    write!(&mut writer, "country\tcity\taccent_city\tregion\tpopulation\tlatitude\tlongitude\n");
     
     for city in results {
         write!(&mut writer, "{}\t{}\t{}\t{}\t{}\t{}\t{}\t\n", city.country, city.city, 
