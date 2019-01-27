@@ -1,3 +1,5 @@
+exercises/cli-csv/worldcitiespop.csv
+exercises/cli-csv/*.csv
 .gitignore
 .ipynb_checkpoints/
 compiled/.ipynb_checkpoints/
