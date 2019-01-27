@@ -1,0 +1,8 @@
+[package]
+name = "cli-csv"
+version = "0.1.0"
+authors = ["Roman <kaire1996@gmail.com>"]
+
+[dependencies]
+csv = "1"
+clap = "~2.32"
